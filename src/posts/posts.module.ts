@@ -7,6 +7,4 @@ import { PostsService } from './posts.service';
   providers: [PostsService],
   exports: [PostsService],
 })
-export class PostsModule {
-  constructor() {}
-}
+export class PostsModule {}
